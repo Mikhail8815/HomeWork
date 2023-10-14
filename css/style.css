@@ -1,0 +1,303 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.woff);
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Bold.woff);
+    
+}
+@font-face{
+    font-family: "Couture-bold";
+    src: url(../fonts/couture-bold.woff)
+}
+@font-face{
+    font-family: "Couture-bold";
+    src: url(../fonts/couture-bold.woff2)
+}
+@font-face{
+    font-family: "Myriad pro";
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF)
+}
+
+*{
+  box-sizing: border-box;
+}
+body  {
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+   /*Стили для раздела Header*/
+
+.header {
+    background-image: url(../img/Layer\ 13.png);
+    height: 687px;
+    margin: 0;
+    display: block;
+}
+.main_menu_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 105px 0 85px;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo_header {
+}
+.menu_header {
+}
+
+.menu_inner ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between
+      }
+      
+.menu_inner ul li {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    margin-right: -10px;
+    margin-left: 20px;
+}
+.menu_inner ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+}
+.menu_inner ul li a:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.header_title {
+    margin-left: 85px;
+    margin-top: 130px;
+}
+.header_title h1{
+    font-size: 90px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 80px;
+    text-transform: uppercase;
+    padding-left: 22px;
+    margin: 0;
+    
+    }
+    .header_title h1 span {
+    color: #ffffff;
+    }
+    .header_text {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    width: 465px;
+    margin-left: 85px;
+    margin-top: 30px;
+    }
+    .header_text p{
+    padding-left: 22px;
+    }
+     /*Стили для раздела Services*/
+
+     .services {
+        background-color: #efefef;;
+        margin: 0;
+        display: block;
+        padding-top: 45px;
+}
+    .services_title {
+    margin-left: 85px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    }
+    .services_title h1 {
+    margin-top: 0;;
+    font-size: 50px;
+    font-family: "Couture";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding-left: 22px;
+    font-family: 'Couture-bold';
+    }
+    .services_title h1 span{
+        color: rgb(19, 14, 39);
+    }
+        
+    .services_inner {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 85px;
+        margin-right: 85px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 65px;
+    }
+    .item {
+        width: 210px;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .img {
+        height: 180px;
+    }
+
+    .item p{
+        font-size: 20px;
+        font-family: "Myriad Pro";
+        color: rgb(22, 22, 22);
+        line-height: 20px;
+        text-align: center;
+        margin-top: 20px;
+      }
+ /*Стили для раздела Story*/
+      .story {
+        display: flex;
+        background-color: #130e27;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+    .story_text {
+        font-size: 20px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        line-height: 24px;
+        width: 600px;
+        margin-left: 85px;
+        }   
+        .story_button {
+            margin-right: 85px;
+        }   
+    .story_button a{
+        display: block;
+        font-size: 22px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 80px 20px 80px;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #c62314;
+          }
+
+          /*Стили для раздела Pricing*/
+          .pricing {
+            background-color: #efefef;
+        }
+        .pricing h2 {
+                font-size: 50px;
+                font-family: "Montserrat";
+                color: rgb(19, 14, 39);
+                font-weight: bold;     
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 0;
+                padding-top: 41px;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 60px;
+        }
+        .cards .item {
+
+            width: 318px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 5px;
+        }
+        .card_title {
+            font-size: 22px;
+            font-family: "PTSerif";
+            color: rgb(22, 22, 22);
+            line-height: 22px;
+            text-align: center;
+            padding-top: 30px;
+            }
+              
+        .cost {
+    
+            font-size: 60px;
+            font-family: "Montserrat";
+            color: rgb(198, 35, 20);
+            font-weight: bold;
+            text-align: center;
+            padding-top: 20px;
+            text-transform: uppercase;
+        }
+              
+              
+        .card_inner{
+            list-style: none;
+            text-align: center;
+            font-size: 20px;
+            font-family: "Myriad pro";
+            color: rgb(22, 22, 22);
+            line-height: 25px;
+            text-align: center;
+            padding: 0;
+        }
+
+        .button {
+            font-size: 22px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            line-height: 1.273;
+            text-align: center;
+            text-transform: uppercase; 
+            width: 208px;      
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+        .button a{
+            display: block;
+            padding: 15px 0;
+            text-decoration: none;
+            background-color: #130e27;
+            color: #efefef;
+            border-radius: 5px;
+        }
+        .button a:hover {
+            background-color:  rgb(198, 35, 20);
+        }
+        
+        /*Стили для раздела Footer*/
+        .footer {
+            background-color: #130e27;
+        }
+        .footer_inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px 105px 0 85px;
+            padding-top: 85px;
+            padding-bottom: 85px;
+        }
+        address {
+                font-size: 20px;
+                font-family: "Myriad Pro";
+                color: rgb(255, 255, 255);    
+                font-style: normal;  
+        }
+        .footer_inner span {
+            color: #c62314;
+        }
+        .logo_footer {
+
+        }
+        
+
+
+        
+    
+
+    

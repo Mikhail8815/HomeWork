@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Couture-Bold';
+	src: url('../fonts/couture-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/couture-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/couture-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/couture-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/couture-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/couture-bold.svg#couture-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
